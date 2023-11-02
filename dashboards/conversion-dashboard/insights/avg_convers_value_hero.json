@@ -1,0 +1,25 @@
+{
+    "$id": "avg_conv_value_hero",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Average Conversion Value ",
+    "description": "Average Conversion Value ",
+    "query": {
+      "metrics": [
+        "yext/AVERAGE_CONVERSION_VALUE"
+      ],
+      "dimensions": [
+        "yext/DAYS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "DAYS_7"
+        }
+      ]
+    },
+    "display": {
+      "hero": {
+        "aggregation": "MEAN"
+      }
+    }
+  }
