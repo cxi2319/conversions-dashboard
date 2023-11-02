@@ -1,0 +1,25 @@
+{
+  "$id": "sum_conv_count_hero",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Sum of Conversion Count ",
+  "description": "Sum of Conversion Count ",
+  "query": {
+    "metrics": [
+      "yext/CONVERSION_COUNT"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_7"
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "SUM"
+    }
+  }
+}

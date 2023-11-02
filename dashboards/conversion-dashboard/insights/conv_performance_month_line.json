@@ -1,0 +1,26 @@
+{
+    "$id": "conv_performance_month_line",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Conversion Performance by Month",
+    "description": "Average Conversion Value, Click Count, Conversion Count, and Total Conversion Value by Month",
+    "query": {
+      "metrics": [
+        "yext/AVERAGE_CONVERSION_VALUE",
+        "yext/CLICK_COUNT",
+        "yext/CONVERSION_COUNT",
+        "yext/TOTAL_CONVERSION_VALUE"
+      ],
+      "dimensions": [
+        "yext/MONTHS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_4"
+        }
+      ]
+    },
+    "display": {
+      "line": {}
+    }
+  }

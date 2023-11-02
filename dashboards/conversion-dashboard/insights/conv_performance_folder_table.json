@@ -1,0 +1,33 @@
+{
+    "$id": "conv_performance_folder_table",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Conversion Performance by Folder",
+    "description": "Average Conversion Value, Click Count, Conversion Count, and Total Conversion Value by Folder",
+    "query": {
+      "metrics": [
+        "yext/AVERAGE_CONVERSION_VALUE",
+        "yext/CLICK_COUNT",
+        "yext/CONVERSION_COUNT",
+        "yext/TOTAL_CONVERSION_VALUE"
+      ],
+      "dimensions": [
+        "yext/FOLDERS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "WEEKS_12"
+        }
+      ]
+    },
+    "display": {
+      "table": {
+        "sort": {
+          "column": {
+            "metric": "yext/TOTAL_CONVERSION_VALUE"
+          },
+          "descending": true
+        }
+      }
+    }
+  }
