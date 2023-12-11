@@ -1,0 +1,23 @@
+{
+  "$id": "click_count_folder_table",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Click Count by Folder",
+  "description": "The count of clicks per folder",
+  "query": {
+    "metrics": [
+      "yext/CLICK_COUNT"
+    ],
+    "dimensions": [
+      "yext/FOLDERS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "bar": {}
+  }
+}

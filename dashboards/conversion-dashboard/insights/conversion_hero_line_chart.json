@@ -1,0 +1,23 @@
+{
+  "$id": "conversion_hero_line_chart",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Conversion Performance",
+  "description": "The count of clicks, count of conversions, and sum total of conversion value per day",
+  "query": {
+    "metrics": [
+      "yext/CLICK_COUNT",
+      "yext/CONVERSION_COUNT",
+      "yext/TOTAL_CONVERSION_VALUE"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ]
+  },
+  "display": {
+    "line": {
+      "heroNumbers": {
+        "show": true
+      }
+    }
+  }
+}

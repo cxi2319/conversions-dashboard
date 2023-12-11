@@ -1,102 +1,84 @@
 {
-    "$id": "conversion-dashboard",
-    "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-    "name": "Conversions",
-    "insights": [
-      {
-        "insight": "cumul_conv_value_hero",
-        "caption": "The sum of all Total Conversion Value",
-        "x": 0,
-        "y": 0,
-        "width": 3,
-        "height": 1
-      },
-      {
-        "insight": "sum_conv_count_hero",
-        "caption": "The sum of Conversion Count",
-        "x": 3,
-        "y": 0,
-        "width": 3,
-        "height": 1
-      },
-      {
-        "insight": "avg_conv_value_hero",
-        "caption": "The Average Conversion Value across all conversions",
-        "x": 0,
-        "y": 1,
-        "width": 3,
-        "height": 1
-      },
-      {
-        "insight": "sum_click_count_hero",
-        "caption": "The sum of Click Count",
-        "x": 3,
-        "y": 1,
-        "width": 3,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_day_line",
-        "x": 0,
-        "y": 2,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_day_table",
-        "x": 2,
-        "y": 2,
-        "width": 4,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_month_line",
-        "x": 0,
-        "y": 3,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_month_table",
-        "x": 2,
-        "y": 3,
-        "width": 4,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_entity_table",
-        "x": 0,
-        "y": 4,
-        "width": 6,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_entity_type_table",
-        "x": 0,
-        "y": 6,
-        "width": 6,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_folder_table",
-        "x": 0,
-        "y": 7,
-        "width": 6,
-        "height": 1
-      },
-      {
-        "insight": "conv_performance_referrer_table",
-        "x": 0,
-        "y": 8,
-        "width": 6,
-        "height": 1
-      }
-    ],
-    "filters": [
-      {
-        "filter": "yext/date",
-        "in": "WEEKS_12"
-      }
-    ],
-    "shareWithSubAccounts": false
-  }
+  "$id": "conversions-dashboard",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Conversions Performance",
+  "insights": [
+    {
+      "insight": "conversion_hero_line_chart",
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 2
+    },
+    {
+      "insight": "avg_conv_value_hero",
+      "x": 0,
+      "y": 2,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "conv_performance_day_line",
+      "x": 0,
+      "y": 3,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "conv_performance_day_table",
+      "x": 3,
+      "y": 3,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "conv_performance_month_line",
+      "x": 0,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "conv_performance_month_table",
+      "x": 3,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "conv_performance_referrer_table",
+      "x": 0,
+      "y": 5,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "click_count_entity_bar",
+      "x": 0,
+      "y": 6,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "click_count_folder_bar",
+      "x": 0,
+      "y": 7,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "click_count_entitytype_bar",
+      "x": 0,
+      "y": 8,
+      "width": 6,
+      "height": 1
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "in": "WEEKS_12"
+    }
+  ],
+  "shareWithSubAccounts": false
+}

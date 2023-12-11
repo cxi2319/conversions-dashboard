@@ -1,0 +1,37 @@
+{
+  "$id": "click_count_entity_table",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Click Count by Entity",
+  "description": "The count of clicks per entity",
+  "query": {
+    "metrics": [
+      "yext/CLICK_COUNT"
+    ],
+    "fields": [
+      "entityId",
+      "name",
+      "address",
+      "yext/derivedField-postalCode",
+      "yext/derivedField-city"
+    ],
+    "dimensions": [
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/CLICK_COUNT"
+        },
+        "descending": true
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
-{
+  {
     "$id": "conv_performance_day_table",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Conversion Performance by Day",
-    "description": "Average Conversion Value, Click Count, Conversion Count, and Total Conversion Value by Day",
+    "description": "The count of clicks, count of conversions, sum total of conversion value, and the average conversion value per day",
     "query": {
       "metrics": [
         "yext/AVERAGE_CONVERSION_VALUE",

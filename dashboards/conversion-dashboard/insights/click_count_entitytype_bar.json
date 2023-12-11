@@ -1,25 +1,23 @@
 {
-    "$id": "sum_click_count_hero",
+    "$id": "click_count_entitytype_bar",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Sum of Click Count ",
-    "description": "Sum of Click Count ",
+    "name": "Click Count by Entity Type",
+    "description": "The count of clicks per entity type",
     "query": {
       "metrics": [
         "yext/CLICK_COUNT"
       ],
       "dimensions": [
-        "yext/DAYS"
+        "yext/ENTITY_TYPES"
       ],
       "filters": [
         {
           "filter": "yext/date",
-          "in": "DAYS_7"
+          "in": "WEEKS_12"
         }
       ]
     },
     "display": {
-      "hero": {
-        "aggregation": "SUM"
-      }
+      "bar": {}
     }
   }
