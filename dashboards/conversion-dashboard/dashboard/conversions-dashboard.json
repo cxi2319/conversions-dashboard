@@ -4,49 +4,49 @@
   "name": "Conversions Performance",
   "insights": [
     {
-      "insight": "conversion_hero_line_chart",
+      "insight": "convers_hero_line_chart",
       "x": 0,
       "y": 0,
       "width": 6,
       "height": 2
     },
     {
-      "insight": "avg_convr_value_hero",
+      "insight": "avg_convers_value_hero",
       "x": 0,
       "y": 2,
       "width": 6,
       "height": 1
     },
     {
-      "insight": "conv_performance_day_line",
+      "insight": "convers_performance_day_line",
       "x": 0,
       "y": 3,
       "width": 3,
       "height": 1
     },
     {
-      "insight": "conv_performance_day_table",
+      "insight": "convers_performance_day_table",
       "x": 3,
       "y": 3,
       "width": 3,
       "height": 1
     },
     {
-      "insight": "conv_performance_month_line",
+      "insight": "convers_performance_month_line",
       "x": 0,
       "y": 4,
       "width": 3,
       "height": 1
     },
     {
-      "insight": "conv_performance_month_table",
+      "insight": "convers_performance_month_table",
       "x": 3,
       "y": 4,
       "width": 3,
       "height": 1
     },
     {
-      "insight": "conv_performance_referrer_table",
+      "insight": "convers_performance_referrer_table",
       "x": 0,
       "y": 5,
       "width": 6,

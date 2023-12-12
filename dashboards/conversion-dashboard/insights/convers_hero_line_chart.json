@@ -1,5 +1,5 @@
 {
-  "$id": "conversion_hero_line_chart",
+  "$id": "convers_hero_line_chart",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Conversion Performance",
   "description": "The count of clicks, count of conversions, and sum total of conversion value per day",

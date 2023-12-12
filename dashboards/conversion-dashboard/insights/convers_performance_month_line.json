@@ -1,5 +1,5 @@
   {
-    "$id": "conv_performance_month_line",
+    "$id": "convers_performance_month_line",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Conversion Performance by Month",
     "description": "The count of clicks, count of conversions, sum total of conversion value, and the average conversion value per month ",
