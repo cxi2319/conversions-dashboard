@@ -1,5 +1,5 @@
 {
-  "$id": "click_count_entity_table",
+  "$id": "click_count_entity_bar",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Click Count by Entity",
   "description": "The count of clicks per entity",

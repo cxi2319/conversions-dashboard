@@ -1,5 +1,5 @@
 {
-  "$id": "click_count_folder_table",
+  "$id": "click_count_folder_bar",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Click Count by Folder",
   "description": "The count of clicks per folder",
